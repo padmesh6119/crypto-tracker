@@ -14,8 +14,8 @@
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // ── WiFi credentials ─────────────────────────────────────────
-const char* SSID     = "401";
-const char* PASSWORD = "zxcvbnm?";
+const char* SSID     = "";
+const char* PASSWORD = "";
 
 // ── CoinGecko API (free, no key needed) ──────────────────────
 // Fetches BTC, ETH, SOL in USD
